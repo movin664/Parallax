@@ -11,19 +11,17 @@ body{
     height:97vh;
     width:80%;
     margin:auto;
-    display: flex;
-    flex-direction: column;
+    position:relative;
 }
 
 nav{
 
-    width:90%;
+    width:80%;
     margin:auto;
     height:15vh;
     align-items: center;
     display: flex;
     align-items: center;
-
 
 }
 
@@ -36,7 +34,7 @@ nav{
 
     display:flex;
     background-color:#FFFDF9;
-    width:90%;
+    width:80%;
     margin:auto;
     justify-content: space-between;
 
@@ -71,8 +69,11 @@ nav{
 
     width:90%;
     /* background-color: #FFFDF9; */
-    margin: auto;
-    background-color: cornflowerblue;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .banner-wrapper{
@@ -80,10 +81,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    width: 100%;
-    background-color: chartreuse;
+    width:90%;
 }
+.banner{
 
+    width:60%;
+}
 .body-content .line-1{
 
     font-family: 'Permanent Marker', cursive;
@@ -99,12 +102,6 @@ nav{
 img[alt="hello emoji"]{
 
     margin-left:0.75em;
-}
-
-.banner-image{
-
-    background-color: blueviolet;
-    display: block;
 }
 
 .button{
@@ -129,7 +126,32 @@ footer{
     
 }
 
+.banner_image{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+}
 
 .highlight {
     background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #BEEBE9 50%);
+  }
+
+  /* table in the commisions page */
+
+  table{
+
+    width:100%;
+  }
+  thead{
+
+    background-color: #FFE3ED;
+  }
+
+ tbody tr{
+
+    
+    font-size: 12px;
+    padding:2em;
+    
   }
