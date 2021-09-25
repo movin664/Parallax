@@ -10,10 +10,13 @@ var hideDivs = function(divs) {
 }
 
 hideDivs(feedback); // hide all initially
+var rnd = Math.floor(Math.random() * feedback.length); // get random index
+feedback[rnd].style.display = 'block'; // show random quote
+
 
 // on click
-button.addEventListener('click', function(event) {
-  var rnd = Math.floor(Math.random() * feedback.length); // get random index
-  hideDivs(feedback); // hide all quotes
-  feedback[rnd].style.display = 'block'; // show random quote
-})
+// button.addEventListener('click', function(event) {
+//   var rnd = Math.floor(Math.random() * feedback.length); // get random index
+//   hideDivs(feedback); // hide all quotes
+//   feedback[rnd].style.display = 'block'; // show random quote
+// })
