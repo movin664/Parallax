@@ -11,7 +11,8 @@ body{
     height:97vh;
     width:80%;
     margin:auto;
-    position:relative;
+    display: flex;
+    flex-direction: column;
 }
 
 nav{
@@ -22,6 +23,7 @@ nav{
     align-items: center;
     display: flex;
     align-items: center;
+
 
 }
 
@@ -69,11 +71,8 @@ nav{
 
     width:90%;
     /* background-color: #FFFDF9; */
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: auto;
+    background-color: cornflowerblue;
 }
 
 .banner-wrapper{
@@ -81,28 +80,31 @@ nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    width: 100%;;
+    width: 100%;
+    background-color: chartreuse;
 }
-.banner{
 
-    width:50%;
-
-}
 .body-content .line-1{
 
     font-family: 'Permanent Marker', cursive;
-    font-size: 2.5rem;
+    font-size: 2.604vw;
 }
 
 .line-2{
 
     margin-top:1em;
-    font-size:18px;
+    font-size:1.125rem;
 }
 
 img[alt="hello emoji"]{
 
     margin-left:0.75em;
+}
+
+.banner-image{
+
+    background-color: blueviolet;
+    display: block;
 }
 
 .button{
@@ -126,6 +128,7 @@ footer{
     padding-bottom: 1em;
     
 }
+
 
 .highlight {
     background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #BEEBE9 50%);
