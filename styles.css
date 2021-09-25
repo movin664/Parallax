@@ -7,10 +7,8 @@ body{
 }
 nav{
 
-    background-color: #FFFDF9;
     width:90%;
     margin:auto;
-    border-bottom:1px solid #D1D1D1;
     height:15vh;
     align-items: center;
     display: flex;
@@ -31,7 +29,6 @@ nav{
     margin:auto;
     justify-content: space-between;
 
-
 }
 
 .nav-links{
@@ -42,7 +39,30 @@ nav{
     flex-grow:2;
     background-color:#FFFDF9;
     justify-content:center;
+    padding:2em 2em 2em 2em;
+    border-bottom:1px solid #D1D1D1;
 }
-.nav-links li{
-    margin:0 2em 0 2em;
+.nav-links li a{
+    padding:2em 0em 2em 0em;
+    text-decoration: none;
+    color:#323232;
+    margin-right:1.75em;
+    margin-left:1.75em;
+}
+
+
+.nav-links li a:hover{
+
+    border-bottom: 4px solid #464646;
+}
+
+.body-content{
+
+    width:80%;
+    background-color: green;
+    margin:auto;
+}
+.body-content h1{
+
+    font-family: 'Permanent Marker', cursive;
 }
