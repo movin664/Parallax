@@ -8,7 +8,7 @@ body{
 
 .body-wrapper{
 
-    height:100vh;
+    height:97vh;
     width:80%;
     margin:auto;
     position:relative;
@@ -91,7 +91,7 @@ nav{
 .body-content .line-1{
 
     font-family: 'Permanent Marker', cursive;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .line-2{
@@ -117,3 +117,16 @@ img[alt="hello emoji"]{
     border-radius: 6px;
 
 }
+
+footer{
+
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 1em;
+    
+}
+
+.highlight {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #BEEBE9 50%);
+  }
