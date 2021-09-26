@@ -237,3 +237,11 @@ input[type="submit"]{
     border-radius: 6px;
 
 }
+.flex-content{
+
+    display:flex;
+    margin:auto;
+    justify-content: space-between;
+    margin-bottom:5%;
+    margin-top:7%;
+}
