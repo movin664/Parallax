@@ -141,17 +141,99 @@ footer{
 
   table{
 
-    width:100%;
+    width:80%;
+    margin:auto;
+    padding: 0 2em 1em 0;
+    margin-top:5%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+
   }
-  thead{
+  th{
 
     background-color: #FFE3ED;
+    font-size: 12px;
+    padding:0.75em;
+    
   }
 
- tbody tr{
+  tr{
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+  }
+  #last_col{
+
+    width:40%;
+  }
+
+    td{
 
     
     font-size: 12px;
-    padding:2em;
+    padding:0.75em;
+    background-color: white;
+    border:none;
     
   }
+
+  .best-results{
+
+    margin-bottom:10%;
+    
+  }
+  .best-results li{
+
+    margin-bottom:1%;
+  }
+
+  .commisions_wrapper{
+
+    padding-top:5%;
+    padding-bottom:5%;
+  }
+
+  form{
+
+    background: rgba(255, 255, 255, 0.99);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 7px;
+    padding-top:2%;
+    padding-bottom: 2%;
+    width:60%;
+    font-size: 13px;
+    padding-left:2%;
+    margin-top: 3%;
+  }
+
+  input[type="text"],input[type="email"],input[type="phone"],input[type="tel"],#message{
+
+    background: rgba(135, 135, 135, 0.07);
+    border:none;
+    padding:1em;
+    width:50%;
+    border-radius:7px;
+    margin-bottom: 2%;
+    margin-top:1%;
+}
+
+label{
+
+    margin-top: 1%;
+}
+
+h3{
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+input[type="submit"]{
+    background-color:#69B8BD;
+    padding: 0.5em 2.5em 0.5em 2.5em;
+    font-size: 13px;
+    border:none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 1em;
+    border-radius: 6px;
+
+}

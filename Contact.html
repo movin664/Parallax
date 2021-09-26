@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+
+    <div class="body-wrapper">
     <nav>
         <div class="nav-bar">
             <ul class="nav-links">
@@ -29,12 +31,12 @@
             </ul>
          </div>
     </nav>
-    <h1>Contact</h1>
+    <h1><span class="highlight">Feedback</span></h1>
     <p>Hope you enjoyed browsing through the site! If what you have seen has caught your interest, I'd love to hear from you!
         If you're interested in a commission or would like to purchase a painting or print, please inquire via this form or send a direct e-mail with the required information. Please visit Commissions for more information of the process. 
         Prices of paintings and prints is noted under each painting, in the Gallery section.</p>
-        <h4>Drop a message:</h4>
     <form onsubmit="sendEmail()">
+        <h3><span class="highlight">Drop a message:</span></h3>
         <label for="fullName">Full name:</label><br>
         <input type="text" id="fullName" name="fullName" placeholder="eg: John Doe" required><br>
         <label for="email">Email:</label><br>
@@ -47,6 +49,13 @@
         <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
         <input type="submit" value="Submit">
     </form>
+
+    </div>
+
+    <footer>
+        © 2019 by Chalk Stories. All rights reserved.
+    </footer>
+
     <script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
     <script type="text/javascript" src = './formHandling.js'></script>
 </body>
