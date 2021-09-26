@@ -14,6 +14,14 @@ body{
     position:relative;
 }
 
+.feedback{
+    width: 50%;
+    margin: auto;
+}
+.button{
+    cursor:pointer;
+}
+
 nav{
 
     width:100%;
